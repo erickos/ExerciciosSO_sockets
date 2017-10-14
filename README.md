@@ -28,7 +28,7 @@ Question 3.
 Question 1.
 - Master 
 > ./mestre01 <PORT>
-- Slaves, open 3 terminals and execute in each one
+- Slaves, open 3 terminals and execute a one those commands in each one:
 * First Slave
 > ./escravo01 <PORT>
 * Second Slave
