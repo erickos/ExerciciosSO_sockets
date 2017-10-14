@@ -38,23 +38,23 @@ Question 1.
   
 Question 2.
 - Master 
-> ./mestre02 <PORT> <NUMBER_OF_SLAVES>
+> ./mestre02 PORT NUMBER_OF_SLAVES
 - Slaves, open N terminals to slaves and execute in each one
 -- First Slave
-> ./escravo02 <PORT>
+> ./escravo02 PORT
 -- Second Slave
-> ./escravo02 <PORT+1>
+> ./escravo02 (PORT+1)
 -- Third Slave
-> ./escravo02 <PORT+2>
+> ./escravo02 (PORT+2)
 ...
 -- N-th slave
-> ./escravo02 <PORT+(N-1)>
+> ./escravo02 (PORT+(N-1))
   
 Question 3.
 - Master 
-> ./mestre03 <PORT> <NUMBER_OF_SLAVES>
+> ./mestre03 PORT NUMBER_OF_SLAVES
 - Slaves, open N terminals to slaves and execute in each one
-> ./escravo02 <PORT> <NUMBER_OF_SLAVES>
+> ./escravo02 PORT NUMBER_OF_SLAVES
 
 ## Authorship
 
