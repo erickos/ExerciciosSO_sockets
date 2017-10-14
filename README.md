@@ -29,25 +29,25 @@ Question 1.
 - Master 
 > ./mestre01 <PORT>
 - Slaves, open 3 terminals and execute in each one
--- First Slave
+* First Slave
 > ./escravo01 <PORT>
--- Second Slave
+* Second Slave
 > ./escravo01 <PORT+1>
--- Third Slave
+* Third Slave
 > ./escravo01 <PORT+2>
   
 Question 2.
 - Master 
 > ./mestre02 PORT NUMBER_OF_SLAVES
 - Slaves, open N terminals to slaves and execute in each one
--- First Slave
+* First Slave
 > ./escravo02 PORT
--- Second Slave
+* Second Slave
 > ./escravo02 (PORT+1)
--- Third Slave
+* Third Slave
 > ./escravo02 (PORT+2)
-...
--- N-th slave
+(...)
+* N-th slave
 > ./escravo02 (PORT+(N-1))
   
 Question 3.
