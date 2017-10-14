@@ -46,7 +46,7 @@ Question 2.
 > ./escravo02 (PORT+1)
 * Third Slave
 > ./escravo02 (PORT+2)
-(...)
+> (...)
 * N-th slave
 > ./escravo02 (PORT+(N-1))
   
